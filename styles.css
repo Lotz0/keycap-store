@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -22,9 +23,18 @@ header{
 .logo-header img{
     width: 50px;
 }
+.nav-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav-menu ul{
     display: flex;
     align-items: center;
+    justify-content: center;
+    
+    
 }
 .nav-menu li{
     margin-right: 1rem;
@@ -43,6 +53,12 @@ header{
     background-color: #4ad295;
     opacity:1.5;
 
+}
+.nav-menu li:hover,
+.nav-menu li:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);  
+    
 }
 .menu-icon img{
     width: 30px;
@@ -70,7 +86,7 @@ header{
         position: fixed;
         top:70px;
         left:-100%;
-        background: #222;
+        background: #232946;
         width: 100%;
         height: 100vh;
         right: 0;
@@ -90,3 +106,4 @@ header{
         transition: all .25s;
     }
 }
+
