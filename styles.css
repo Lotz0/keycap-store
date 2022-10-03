@@ -297,7 +297,7 @@ main{
 /* tablet size */
 @media screen and (max-width:992px){
     main{
-        background-image: url(/images/d942e6c5-90c8-4c0b-8228-7d52c04924e3.webp.webp);
+        background-image: url(images/d942e6c5-90c8-4c0b-8228-7d52c04924e3.webp.webp);
     }
     header{
         width: 100%;
